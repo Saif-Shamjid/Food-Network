@@ -67,6 +67,9 @@ body{
     text-decoration: none;
     color: white;   
     transition: all 0.2s ease;
+
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
 }
 .welcome-btn a:hover {
     padding-left: 42px;
@@ -98,6 +101,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* my own coustom shadoW */
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+    height: 550px;
+    padding: 20px;
 }
 
 .about-text h2{
@@ -137,12 +147,40 @@ body{
 .item {
     height: 520px;
     width: 1239px;
-    margin: 0 auto;
+    margin: 85px auto;
     display: flex;
-    margin-top: 55px;
+    /* margin-top: 85px; */
+    
+}
+
+.inner-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20px;
+    /* my own coustom shadoW */
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
 }
 
 .inner-item img {
     height: 256px;
     width: 337px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+}
+
+.inner-item h2 {
+    margin-top: 40px;
+}
+
+.item-text {
+    color: #676767;
+    line-height: 165%;
 }
